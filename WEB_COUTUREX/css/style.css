@@ -440,56 +440,44 @@ hr {
 
 /*CONTACT US*/
 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
-  display: flex;
-  padding-right:20px;
-  max-width: 800px;
+  max-width: 400px;
   margin: 50px auto;
+  padding: 20px;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.left {
-  flex: 1;
-  margin-right:20px;
-}
-
-.right {
-  flex: 1;
-  padding: 20px;
-}
-
-.left img {
-  width: 100%;
-  margin-top:15px;
-  margin-left:15px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-
-.right h2 {
+h2 {
   text-align: center;
 }
 
-.right form {
+form {
   display: grid;
   gap: 10px;
 }
 
-.right label {
+label {
   font-weight: bold;
 }
 
-.right input,
-.right textarea {
+input,
+textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
-.right button {
+button {
   width: 100%;
   padding: 10px;
   background-color: #007bff;
@@ -499,7 +487,8 @@ hr {
   cursor: pointer;
 }
 
-.right button:hover {
+button:hover {
   background-color: #0056b3;
 }
+
 
