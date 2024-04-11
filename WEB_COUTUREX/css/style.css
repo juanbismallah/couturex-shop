@@ -440,8 +440,14 @@ hr {
 
 /*CONTACT US*/
 
+
+.formulario {
+  width: 90vw;
+  height: 100vh;
+}
+
 .container {
-  max-width: 400px;
+  width: 50vw;
   margin: 50px auto;
   padding: 20px;
   background-color: #fff;
@@ -483,5 +489,4 @@ button {
 button:hover {
   background-color: #0056b3;
 }
-
 
