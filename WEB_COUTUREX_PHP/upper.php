@@ -31,6 +31,22 @@
     </header>
 
     <body>
+
+    <?php
+      $servername = "10.43.196.50";
+      $database = "PRODUCTES";
+      $username = "srvweb";
+      $password = "rogerjuan2006";
+      // Create connection
+      $conn = mysqli_connect($servername, $username, $password, $database);
+      // Check connection
+      if (!$conn) {
+          die("Connection failed: " . mysqli_connect_error());
+      }
+      echo "Connected successfully";
+      mysqli_close($conn);
+      ?>
+
       <section class="filtrador">
           <h1 class="titleh1cate">FILTER</h1>
           <hr>
