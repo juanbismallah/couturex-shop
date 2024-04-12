@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="media/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
+    <script src="/js/main.js"></script>
+    <title>COUTUREX - Your Freestyle Design</title>
+    <script>
+            jQuery(document).ready(function ($) {
+            $(".slider-img").on("click", function () {
+            $(".slider-img").removeClass("active");
+            $(this).addClass("active");
+        });
+    });
+
+    </script>
+</head>
+
+    <header>
+        <nav>
+            <div class="input-container">
+                <input type="text" name="text" class="input" placeholder="buscar...">
+                <span class="icon"> 
+                  <svg width="19px" height="19px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path opacity="1" d="M14 5H20" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path opacity="1" d="M14 8H17" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M21 11.5C21 16.75 16.75 21 11.5 21C6.25 21 2 16.75 2 11.5C2 6.25 6.25 2 11.5 2" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path> <path opacity="1" d="M22 22L20 20" stroke="#000" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                </span>
+            </div>
+            <ul>
+                <li class="lihead"><a class="aheader" href="index.html">Home</a></li>
+                <li class="lihead"><a class="aheader" href="upper.html">Upper Body</a></li>
+                <li class="lihead"><a class="aheader" href="lower.html">Lower Body</a></li>
+                <li class="lihead"><a class="aheader" href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <body>
+        <section class="bienvenida">
+            <img class="imglogo2" src="media/img/logo_eslogan.svg">
+        </section>  
+
+        <section class="categorias">
+            <h1 class="titleh1cate">CATEGORIES</h1>
+            <article>
+                <p class="pcate">Combining urban edge with comfort, streetwear and casual wear offer bold graphics, oversized silhouettes, and relaxed essentials like denim jeans and cozy sweaters. With Couturex this fusion allows men to effortlessly showcase their individuality with urban flair in everyday settings.</p>
+            </article>
+
+            <div class="categoriasdiv">
+                <div class="categoria1">
+                    <h2 class="titlecate">Upper Body</h2>
+                    <div class="slide">
+                        <img class="imgslide" src="media/img/slideshow/camisetas.jpeg">
+                        <img class="imgslide" src="media/img/slideshow/chaqueta.jpg">
+                        <img class="imgslide" src="media/img/slideshow/sudadera.png">
+                    </div>
+                    <article>
+                        <p class="descricion">In this category, your style always comes first, there are t-shirts, sweatshirts, jackets, etc. You have all kinds of clothes to combine and choose from.</p>
+                    </article>
+                    <button onclick="redirigirAPaginaInterna()" class="buttoncate">
+                        <img class="imgbutton" src="media/img/1217949.svg">
+                    </button>
+                </div>
+
+                <div class="categoria1">
+                    <h2 class="titlecate">Lower Body</h2>
+                    <div class="slide">
+                        <img class="imgslide" src="media/img/slideshow/pantacort.jpeg">
+                        <img class="imgslide" src="media/img/slideshow/pantalarg.jpeg">
+                        <img class="imgslide" src="media/img/slideshow/zapas.jpg">
+                    </div>
+                    <article>
+                        <p class="descricion">In this category, your style always comes first, there are pants (both long and short) and sneakers. You have a lot of possible combinations with those two garments at your disposal.</p>
+                    </article>    
+                    <button onclick="redirigirAPaginaInterna2()" class="buttoncate">
+                        <img class="imgbutton" src="/media/img/1217949.svg">
+                    </button>
+                </div>
+            </div>
+            
+        </section> 
+        <section class="masdetacados">
+            <article>
+                <h1 class="titleh1cate">MOST FEATURED PRODUCTS</h1>
+            </article>
+        </section>
+        <section class="slider-container">
+            <div class="slider-images">
+                <div class="slider-img">
+                    <img src="media/img/Images/1.jpeg" alt="1" />
+                    <h1 class="h1slide">T-SHIRTS</h1>
+                    <div class="details">
+                        <h2><a class="alinkbuy"  href="">Stussy T-Shirts - 30 €</a></h2>
+                    </div>
+
+                </div>
+                <div class="slider-img">
+                    <img src="media/img/Images/2.jpg" alt="2" />
+                    <h1 class="h1slide">JACKET</h1>
+                    <div class="details">
+                        <h2><a class="alinkbuy"  href="">North Face Jcket - 110 €</a></h2>
+                    </div>
+                </div>
+                <div class="slider-img">
+                    <img src="media/img/Images/3.jpeg" alt="3" />
+                    <h1 class="h1slide">shorts</h1>
+                    <div class="details">
+                        <h2><a class="alinkbuy"  href="">Stone Island Shorts - 35 €</a></h2>
+                    </div>
+                </div>
+                <div class="slider-img active">
+                    <img src="media/img/Images/4.jpeg" alt="4" />
+                    <h1 class="h1slide">PANTS</h1>
+                    <div class="details">
+                        <h2><a class="alinkbuy"  href="">Stone Island Pants - 70 €</a></h2>
+                    </div>
+                </div>
+                <div class="slider-img">
+                    <img src="media/img/Images/5.png" alt="5" />
+                    <h1 class="h1slide">Hoddies</h1>
+                    <div class="details">
+                        <h2><a class="alinkbuy"  href="">Burberry Hoddy - 55 €</a></h2>
+                    </div>
+                </div>
+                <div class="slider-img">
+                    <img src="media/img/Images/6.jpg" alt="6" />
+                    <h1 class="h1slide">Sweater</h1>
+                    <div class="details">
+                        <h2><a class="alinkbuy"  href="">CP Company Sweater - 55 €</a></h2>
+                    </div>
+                </div>
+                <div class="slider-img">
+                    <img src="media/img/Images/7.jpg" alt="7" />
+                    <h1 class="h1slide">SHOES</h1>
+                    <div class="details">
+                        <h2><a class="alinkbuy"  href="">Adidas Campus 00s - 110 €</a></h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="marcassect">
+            <h1 class="titleh1cate">OUR BEST SELLING BRANDS</h1>
+            <div class="brandsdiv">
+                <table class="tablebrands">
+                    <tr>
+                        <td>
+                            <img class="brand1" src="media/img/Adidas_2022_logo.svg">       
+                        </td>
+                        <td>
+                            <img class="brand2" src="media/img/logo-ami.png">
+                        </td>
+                        <td>
+                            <img class="brand3" src="media/img/amiri-logo-0A19AA90E1-seeklogo.com.png">
+                        </td>
+                        <td>
+                            <img class="brand4" src="media/img/Burberry_Logo.svg.png">
+                        </td>
+                        <td>
+                            <img class="brand5" src="media/img/cp-company-logo-680207AD0D-seeklogo.com.png">
+                        </td>
+                        <td>
+                            <img class="brand6" src="media/img/canada-goose-logo-10FBC2290D-seeklogo.com.png">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="brand17" src="media/img/6db37c0faf8db41b34aa07121d48ab60.png">
+                        </td>
+                        <td>
+                            <img class="brand7" src="media/img/Dior_Logo.svg.png">
+                        </td>
+                        <td>
+                            <img class="brand18" src="media/img/dsquared2-logo-45505C577D-seeklogo.com.png">
+                        </td>
+                        <td>
+                            <img class="brand8" src="media/img/essentials-logo-retina.png">
+                        </td>
+                        <td>
+                            <img class="brand9" src="media/img/Logo_da_Lacoste.png">
+                        </td>
+                        <td>
+                            <img class="brand10" src="media/img/moncler-1.svg">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="brand11"  src="media/img/Logo_NIKE.svg">
+                        </td>
+                        <td>
+                            <img class="brand12"  src="media/img/off-white-logo-logo.svg">
+                        </td>
+                        <td>
+                            <img class="brand13" src="media/img/Palm-Angels-Logo.png">
+                        </td>
+                        <td>
+                            <img class="brand14" src="media/img/ralphlauren.svg">
+                        </td>
+                        <td>
+                            <img class="brand15" src="media/img/st_logo.png">
+                        </td>
+                        <td>
+                            <img class="brand16" src="media/img/stussy_logo.png">
+                        </td>
+                    </tr>
+                </table>
+            </section>   
+    </body>
+
+    <footer>
+        <hr>
+        <div>
+            <img class="moodle-img" src="media/img/Moodle-1.png">
+            <table class="tablefooter">
+                <tr>
+                  <td><a class="afooter" href="index.html">Home</a></td>
+                  <td><a class="afooter" href="upper.html">Upper Body</a></td>
+                </tr>
+                <tr>
+                  <td><a class="afooter" href="contact.html">Contact Us</a></td>
+                  <td><a class="afooter" href="lower.html">Lower Body</a></td>
+                </tr>
+              </table>
+            <img class="wordpress-img" src="media/img/WordPress-logotype-wmark.png">
+        </div>
+        <hr>
+            <div>
+                <a href=""><img class="instik" src="media/img/tiktok_logo.png"></a>
+                <a href=""><img class="instik" src="media/img/instagram_logo.png"></a>
+            </div>
+        <hr>
+            <p class="pfooter">© 2024 COUTUREX. Tots els drets reservats </p>
+    </footer>
+    
+</html>
