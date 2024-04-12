@@ -31,6 +31,16 @@
     </header>
 
     <body>
+      
+    <?php
+      $servername = "10.43.196.50";
+      $database = "PRODUCTES";
+      $username = "srvweb";
+      $password = "rogerjuan2006";
+
+      echo $servername;
+      ?>
+
       <section class="filtrador">
           <h1 class="titleh1cate">FILTER</h1>
           <hr>
